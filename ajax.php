@@ -1,1 +1,1 @@
-<?php header('Access-Control-Allow-Origin: *'); echo 5; ?>
+<?php echo 5; ?>
