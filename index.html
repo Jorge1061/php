@@ -1,0 +1,122 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+  <title></title>
+</head>
+
+<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+  <!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> -->
+  <div class="contenedor">
+    <!-- <div class="titulo">¿Sobre que escribiré en el blog?</div> -->
+    <div id="pestanas">
+      <ul id=lista>
+        <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Ejm #1</a></li>
+        <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Ejm #2</a></li>
+        <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Ejm #3</a></li>
+        <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>Ejm #4</a></li>
+        <li id="pestana5"><a href='javascript:cambiarPestanna(pestanas,pestana5);'>Ejm #5</a></li>
+        <li id="pestana6"><a href='javascript:cambiarPestanna(pestanas,pestana6);'>Ejm #6</a></li>
+      </ul>
+    </div>
+
+
+
+    <div id="contenidopestanas">
+      <div id="cpestana1">
+        <h2>Ejemplo de un modal</h2>
+
+        <!-- js Open The Modal -->
+        <button id="myBtn">Abrir Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal de ejemplo..</p>
+          </div>
+
+        </div>
+      </div>
+      <div id="cpestana2">
+       <input id="txtValor" type="text">
+       <p id="texto"></p>
+       <input id="btnCalcular" type="button" value="Calcular">
+      </div>
+      <div id="cpestana3">
+        Name: <input type="text" name="fullname"><br>
+        Email: <input type="text" name="email">
+      </div>
+      <div id="cpestana4">
+          <div id="cont1" class="bloque">BLOQUE DE PRUEBA</div><br>
+          <button id="c1">Ocultar bloque</button><br>
+          <button id="c2">Mostrar bloque</button><br>
+          <button id="c1b">Ocultar / Mostrar</button><br>
+          <button id="c3">Cambiar tamaño</button><br>
+          <button id="c4">Ocultar con FadeOut</button><br>
+          <button id="c5">Mostrar con FadeIn</button><br>
+          <button id="c6">Mover</button><br>
+          <button id="c7">Cambiar estilo CSS</button><br>
+      </div>
+      <div id="cpestana5">
+          Introduce valor 1
+
+          <input type="text" name="caja_texto" id="valor1" value="0" />
+
+
+          Introduce valor 2
+
+          <input type="text" name="caja_texto" id="valor2" value="0" />
+
+          Realiza suma
+
+          <input type="button" id="calcula" href="javascript:;" value="Calcula" />
+
+          <br />
+
+          Resultado: <span id="resultado">0</span>
+      </div>
+      <div id="cpestana6">
+        <div class="contenido">
+            <div class="calculator">
+                <div class="screen"></div>
+                <input type="hidden" value="" class="values" />
+                <input type="hidden" value="" class="outcome" />
+                <ul class="buttons">
+                    <li class="clear"><a>C</a></li>
+                    <li><a href="_" class="val">&plusmn;</a></li>
+                    <li><a href="/" class="val">&divide;</a></li>
+                    <li><a href="*" class="val">&times;</a></li>
+                    <li><a href="7" class="val">7</a></li>
+                    <li><a href="8" class="val">8</a></li>
+                    <li><a href="9" class="val">9</a></li>
+                    <li><a href="-" class="val">-</a></li>
+                    <li><a href="4" class="val">4</a></li>
+                    <li><a href="5" class="val">5</a></li>
+                    <li><a href="6" class="val">6</a></li>
+                    <li><a href="+" class="val">+</a></li>
+                    <li><a href="1" class="val">1</a></li>
+                    <li><a href="2" class="val">2</a></li>
+                    <li><a href="3" class="val">3</a></li>
+                    <li><a class="equal tall">=</a></li>
+                    <li><a href="0" class="val wide shift">0</a></li>
+                    <li><a href="." class="val shift">.</a></li>
+                </ul>
+            </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+
+</html>
