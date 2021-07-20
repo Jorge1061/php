@@ -200,7 +200,7 @@ function realizaProceso(valorCaja1, valorCaja2) {
     };
     $.ajax({
         data: parametros,
-        url: https://jorge1061.github.io/php/ajax.php,//'ajax.php',
+        url: 'https://jorge1061.github.io/php/ajax.php',//'ajax.php',
         type: 'post',
         beforeSend: function () {
             $("#resultado").html("Procesando, espere por favor...");
