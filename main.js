@@ -201,7 +201,7 @@ function realizaProceso(valorCaja1, valorCaja2) {
     $.ajax({
         data: parametros,
         url: 'ajax.php',
-        type: 'post',
+        type: 'GET',
         beforeSend: function () {
             $("#resultado").html("Procesando, espere por favor...");
         },
