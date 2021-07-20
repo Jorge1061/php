@@ -1,6 +1,6 @@
 <?php 
 header('Access-Control-Allow-Origin: *');
 
-$resultado = $_POST['valorCaja1'] + $_POST['valorCaja2']; 
+$resultado = $_GET['valorCaja1'] + $_GET['valorCaja2']; 
 echo $resultado;
 ?>
